@@ -1,0 +1,6 @@
+name: Check new links against deployment
+on:
+  pull_request:
+jobs:
+  run:
+    uses: iterative/link-check/.github/workflows/link-check-deployment-status.yml@v0.13.0
